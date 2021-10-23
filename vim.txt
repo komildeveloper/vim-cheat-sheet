@@ -1,0 +1,244 @@
+🅥🅘🅜 🅒🅗🅔🅐🅣 🅢🅗🅔🅔🅣 ➋⓿➋➊
+
+𝙰𝚞𝚝𝚑𝚘𝚛 - 𝙺𝚘𝚖𝚒𝚕 𝚂𝚘𝚋𝚒𝚝𝚘𝚟
+
+𝚂𝚘𝚌𝚒𝚊𝚕 𝙼𝚎𝚍𝚒𝚊
+暑 komil_developer
+  komil_developer
+  komildeveloper
+
+
+██╗   ██╗██╗███╗   ███╗
+██║   ██║██║████╗ ████║
+██║   ██║██║██╔████╔██║
+╚██╗ ██╔╝██║██║╚██╔╝██║
+ ╚████╔╝ ██║██║ ╚═╝ ██║
+  ╚═══╝  ╚═╝╚═╝     ╚═╝
+
+
+---------------------------------------------------------
+
+𝙰𝚜𝚜𝚊𝚕𝚘𝚖𝚞 𝙰𝚕𝚎𝚢𝚔𝚞𝚖
+
+Boshladik......
+
+Vim - bu bepul va ochiq manbali, Unix uchun mo'ljallangan VI matn muharririning klon dasturi.Uning muallifi Bill Joy
+Bilasiz Linux ommaga tadbiq qilingandan so'ng Linux-ni rivojlantirish ko'plab dasturchilar uni rivojlanrishga hissa qo'shishni boshlashdi
+Shulardan biri Bram Moolenaar.U kim ?... deyishingiz mumkin! Bram Moolenaar Vim Matn muharririning asoschisi, va uni 1991-yil ommaga tadbiq
+etgan
+
+Ho'sh Vim haqida qisqacha ma'lumotga ega bo'ldik eni uni ishlatishni o'rganishimiz kerak, undan oldin esa uni o'rnatishni!
+
+  Install VIM
+
+  Linux
+|--------------------------------|
+|                                |
+|             Debian            |
+|             Ubuntu            |
+|             Linux Mint        |
+|                                |
+|      sudo apt install vim      |
+|--------------------------------|
+
+|--------------------------------|
+|                                |
+|            Arch Linux         |
+|            Manjaro            |
+|                                |
+|        sudo pacman -S vim      |
+|--------------------------------|
+
+
+|--------------------------------|
+|                                |
+|             CentOS            |
+|             RHEL              |
+|             Fedora            |
+|                                |
+|      sudo dnf install vim      |
+|--------------------------------|
+
+
+|--------------------------------|
+|                                |
+|            OpenSuse           |
+|                                |
+|    sudo zypper install vim     |
+|--------------------------------|
+
+
+  OSX
+|--------------------------------|
+|                                |
+|             MacOS             |
+|                                |
+|        brew install vim        |
+|--------------------------------|
+
+Va nihoyat siz VIM-ni o'z OS-ingizga o'rnatib bo'ldingiz... deb umid qilaman😄
+Shundan so'ng terminal ochasiz va
+
+vim
+
+deb yozasiz.
+
+Terminal sizga Vim-ni ochib beradi
+Vim o'zi terminal integratsiyasi orqali ishga tushadigan dastur
+
+Ho'sh siz Vim-ni ko'rdingizmi va uning interfeysi juda chiroyli shundaymi ??? Ha / Yo'q
+Albatta bu CLI dastur, siz nima bundan ortig'ini kutganmidingiz 😄😄😄
+
+Endi Vim-dan chiqib keting, faqat Terminal-ni yopib yubormasdan yani manabu << x >> belgini bosmasdan
+
+CTRL + q  ishladimi ?
+CTRL + w  ishladimi ?
+CTRL + c  ishladimi ?
+ALT + F4  unday qila ko'rmang ?
+
+Reboot
+
+Ha o'zi ko'pchilik Vim-dan qanday chiqishni bilmaydi keling endi buni o'rganamiz
+
+  Learn Vim
+
+1.Editing(Delete, Change, Yank), Vim Modes, Exit, Cursor Moving, Replace
+
+1.1 - Editing
+Siz vim orqali qaysidur faylga o'zgartish kiritmoqchisiz, qisqacha qilib aytganda << edit >> qilmoqchisiz
+Edit qilmoqchi bo'lgan faylni folder-iga o'tib olib
+
+vim index.html
+vim style.css
+vim app.js
+
+deb yozasiz va vim sizga usha faylni ochib beradi keyin siz uni edit qila olasiz yoki tahrirlay olasiz qisqachasiga.
+
+1.2 Vim Modes
+Siz Vim-da matnni muharrirlamoqchi bo'lsangiz oldin siz Vim Modes, Cursor Moving degan narslarni o'rganishingiz kerak, albatta bular
+Vim-da ishlatilinadigan kalit so'zlar
+
+Vim Modes - Normal, Insert, Visual, Command, Replace
+
+Normal Mode - bu mode-da siz faqat fayl ichida haraktlana olasiz olasiz
+Normal Mode-ga o'tish uchub CTRL + c yoki Insert Mode-da bo'lsangiz <ESC> tugmasini bosasiz
+
+h -  (left)
+l -  (right)
+j -  (down)
+k -  (up)
+
+boshqa harakatlanish uchun vim key-lari
+
+w - chapdan so'zning birinchi harfiga
+W - chapdan so'zning birinchi harfiga(tinish belgilarini hisobga olmaydi)
+
+e - chapdan so'zning oxirgi harfiga
+E - chapdan so'zning oxirgi harfiga(tinish belgilarini hisobga olmaydi)
+
+b - o'ngda so'znning birinchi harfiga
+B - o'ngda so'znning birinchi harfiga(tinish belgilarini hisobga olmaydi)
+
+ge - o'ngda so'znning oxirgi harfiga
+gE - o'ngda so'znning oxirgi harfiga(tinish belgilarini hisobga olmaydi)
+
+% - mos keladigan belgilar bo'lsa (qo'llab -quvvatlanadigan juftliklar
+                  '()', '{}', '[]'
+qo'shimcha ma'lumot olish uchun: h matchpairs)
+
+0 - Qator boshiga harakatlanish
+^ - Qatorining birinchi bo'sh bo'lmagan joyiga harakatlanish
+
+$ - Qatorning oxiriga harakatlanish
+g_ - Qatorining oxirgi bo'sh bo'lmagan joyiga harakatlanish
+
+gg - faylning birinchi qatoriga harakatlanish
+[[ - faylning birinchi qatoriga harakatlanish(Alternativ usul)
+
+G - faylning oxirgi qatoriga harakatlanish
+]] - faylning oxirgi qatoriga harakatlanish(Alternativ usul)
+
+foydali usul
+
+5gg
+10gg
+10w
+8e
+
+siz hab bir sinab ko'ring(h, l, j, k, w, e, b), 5 yoki 10 raqamining o'rnida boshqa raqam bo'lishi mumkin
+faqat fayldagi qatorning raqamidan past bo'lmasa bo'ldi
+
+Insert Mode
+Insert Mode-ga o'tish uchun << i >> tugmasini bosasiz agar siz normal mode-da bo'lsangiz
+
+i - cursor pozitsiyasidan oldin Insert Mode-ga o'tish
+a - cursor pozitsiyasidan keyin Insert Mode-ga o'tish
+
+SHIFT + I - qatorni boshidan Insert Mode-ga o'tish
+SHIFT + A - qatorni oxiridan Insert Mode-ga o'tish
+
+o - yangi qator ochib pastga harakatlanish
+O - yangi qator ochib tepaga harakatlanish
+
+
+Visual Mode
+Visual Mode-ga o'tish uchun siz << v >> tugmasini bosasiz
+Visual Line Mode-ga o'tish uchun siz << SHIFT + V >> tugmasini bosasiz
+
+Command Mode
+Command Mode-ga o'tish uchun siz << : >> tugmasini bosasiz
+
+Replace Mode
+Replace Mode-ga o'tish uchun siz << r >> tugmasini bosasiz
+Agar siz SHIFT + R tugmasini bossangiz qatorni replace qila olasiz
+
+1.Editing - Delete
+
+dd  - qatorni o'chirib(kesib) tashlaydi
+D   - cursor turgan joyni o'ng tarafidagi content-ni o'chirish(kesish) 
+d$  - cursor turgan joyni o'ng tarafidagi content-ni o'chirish(kesish) (Alternativ usul) 
+
+d^  - cursor turgan joyni chap tarafidagi content-ni o'chirish(kesish)
+d0  - cursor turgan joyni chap tarafidagi content-ni o'chirish(kesish) (Alternativ usul) 
+
+dw  - cursor turgan joyni chap tarafidagi content-ni o'chirish(kesish)
+d0  - cursor turgan jo'yni chap tarafidagi content-ni o'chirish(kesish) (Alternativ usul) 
+
+dw  - cursor pozitsiyasidan keyingi so'z boshlanishigacha so'z belgilarini o'chirish(kesish)
+diw - cursor ostidagi so'zni o'chirish (kesish)
+daw - cursor ostidagi so'zni va undan keyin yoki undan oldingi bo'shliqni o'chirish (kesish)
+
+x   - belgini o'chirish (kesish)
+
+1.Editing - Change
+
+C - cursor pozitsiyasidagi contentni o'chirish(kesish) va Insert Mode-ga o'tish
+
+1.Editing - Yank(Copy)
+
+yy - yank (1 qatordan nusxa ko'chirish)
+2yy - yank (2 qatordan nusxa ko'chirish 2 o'rnida boshqa raqam ham bo'lishi mumkin)
+
+yw  - yank (copy) kursor pozitsiyasidan keyingi so'z boshigacha so'z belgilarini
+yiw - yank (copy) kursor ostidagi so'zni
+yaw - yank (copy) kursor ostidagi so'z va undan keyingi yoki oldingi bo'sh joy
+yaw - yank (copy) kursor ostidagi so'z va undan keyingi yoki oldingi bo'sh joy
+
+y$  - yank (copy) satr oxirigacha
+y^  - yank (copy) satr boshigacha
+
+1.Editing - Paste
+
+p - buferni kursordan keyin qo'yish (paste)
+P - buferni kursordan oldin qo'yish (paste)
+
+爵 Vim Cheat Sheet
+https://vim.rtorr.com
+
+Do'stlar qolgan narsalarni manashu tepadagi tashlagan sayt link-idan o'rgangasangiz bo'ladi
+Yoki mening YouTube-dagi Vim bo'yicha Kursimdan
+
+  YouTube
+https://www.youtube.com/watch?v=lq4w0-p_S64&list=PLncVsPbQ32Z39ugqR8WYLkYbQ0Mt1hCFq
+
+Rahmat
